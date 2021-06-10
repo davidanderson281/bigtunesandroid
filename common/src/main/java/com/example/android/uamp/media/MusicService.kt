@@ -124,7 +124,7 @@ open class MusicService : MediaBrowserServiceCompat() {
     private var isForegroundService = false
 
     private val remoteJsonSource: Uri =
-        Uri.parse("https://github.com/davidanderson281/bigtunesandroid/blob/main/docs/feed.json")
+        Uri.parse("https://raw.githubusercontent.com/davidanderson281/bigtunesandroid/main/docs/feed.json")
 
     private val uAmpAudioAttributes = AudioAttributes.Builder()
         .setContentType(C.CONTENT_TYPE_MUSIC)
